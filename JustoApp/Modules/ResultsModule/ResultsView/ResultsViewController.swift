@@ -9,15 +9,21 @@
 import UIKit
 import SDWebImage
 
+protocol LogOutDelegate {
+  func logOut()
+}
+
 class ResultsViewController: UIViewController,ResultsViewControllerProtocol {
   
   @IBOutlet weak var containerView: UIView!
   @IBOutlet weak var image: UIImageView!
   @IBOutlet weak var tableView: UITableView!
-
+  @IBOutlet weak var logOutButton: UIButton!
+  
   var presenter: ResultsPresenterProtocol?
   var result: Result?
   var infoUser: [InfoEntity]?
+  var delegate: LogOutDelegate?
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -44,6 +50,11 @@ class ResultsViewController: UIViewController,ResultsViewControllerProtocol {
     containerView.layer.shadowOffset = CGSize(width: 5.0, height: 5.0)
     containerView.layer.shadowRadius = 25.0
     containerView.layer.shadowOpacity = 0.9
+    logOutButton.layer.cornerRadius = 10.0
+    logOutButton.layer.shadowColor = UIColor.darkGray.cgColor
+    logOutButton.layer.shadowOffset = CGSize(width: 5.0, height: 5.0)
+    logOutButton.layer.shadowRadius = 25.0
+    logOutButton.layer.shadowOpacity = 0.9
   }
 
   func registerCell(){
@@ -61,6 +72,11 @@ class ResultsViewController: UIViewController,ResultsViewControllerProtocol {
       return
     }
     print(results.results)
+  }
+
+  @IBAction func logOut(_ sender: Any) {
+    self.navigationController?.popViewController(animated: true)
+    self.delegate?.logOut()
   }
 }
 

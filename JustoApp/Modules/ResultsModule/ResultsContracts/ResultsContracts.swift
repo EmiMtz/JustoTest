@@ -11,6 +11,7 @@ import UIKit
 protocol ResultsViewControllerProtocol: UIViewController {
   var presenter: ResultsPresenterProtocol? {get set}
   var result: Result? {get set}
+  var delegate: LogOutDelegate? {get set}
   func showResults(results: Results?)
 }
 //Interactor
@@ -34,7 +35,7 @@ protocol ResultsPresenterProtocol: NSObject {
 //Router
 protocol ResultsRouterProtocol {
   var presenter: ResultsPresenterProtocol? {get set}
-  static func createModule(results: Result) -> UIViewController
+  static func createModule(results: Result, delegate: LogOutDelegate?) -> UIViewController
   
 }
 

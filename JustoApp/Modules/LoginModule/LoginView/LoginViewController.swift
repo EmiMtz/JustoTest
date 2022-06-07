@@ -30,6 +30,8 @@ class LoginViewController: UIViewController,LoginViewControllerProtocol {
     }
       self.userTextField.placeholder = results.results.first?.login.username
       self.passwordTextfield.placeholder = results.results.first?.login.password
+      self.userTextField.text = results.results.first?.login.username
+      self.passwordTextfield.text = results.results.first?.login.password
       self.resultsGlobal = results
     }
   }
@@ -54,7 +56,7 @@ class LoginViewController: UIViewController,LoginViewControllerProtocol {
   }
 
   func continueLogin(result: Result) {
-    let vc = ResultsRouter.createModule(results: result)
+    let vc = ResultsRouter.createModule(results: result, delegate: self)
     self.navigationController?.pushViewController(vc, animated: true)
   }
   
@@ -84,4 +86,12 @@ class LoginViewController: UIViewController,LoginViewControllerProtocol {
   }
 }
 
-
+extension LoginViewController: LogOutDelegate {
+  func logOut() {
+    userTextField.text = ""
+    passwordTextfield.text = ""
+    DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+      self.presenter?.getResults()
+    }
+  }
+}

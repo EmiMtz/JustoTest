@@ -36,16 +36,29 @@
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="NLY-i9-eJ9">
-                                <rect key="frame" x="10" y="393.5" width="394" height="448.5"/>
+                                <rect key="frame" x="10" y="393.5" width="394" height="397.5"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5su-IT-gNw">
+                                <rect key="frame" x="40" y="811" width="334" height="31"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Log Out"/>
+                                <connections>
+                                    <action selector="logOut:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HLy-jY-m9L"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="B0i-rm-cvH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DeE-XT-miC"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="5su-IT-gNw" secondAttribute="bottom" constant="20" id="N1r-Mk-PNZ"/>
                             <constraint firstItem="B0i-rm-cvH" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="50" id="Td9-J6-Qj0"/>
                             <constraint firstItem="NLY-i9-eJ9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="Wjb-Ar-9zd"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="NLY-i9-eJ9" secondAttribute="bottom" constant="20" id="olS-np-6uS"/>
+                            <constraint firstItem="5su-IT-gNw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="ibb-7l-X8q"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5su-IT-gNw" secondAttribute="trailing" constant="20" id="mgD-fb-Jjp"/>
+                            <constraint firstItem="5su-IT-gNw" firstAttribute="top" secondItem="NLY-i9-eJ9" secondAttribute="bottom" constant="20" id="pwx-wo-Xrz"/>
                             <constraint firstItem="B0i-rm-cvH" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.35" id="rkV-ep-Had"/>
                             <constraint firstAttribute="trailing" secondItem="NLY-i9-eJ9" secondAttribute="trailing" constant="10" id="zUb-LX-AcO"/>
                             <constraint firstItem="NLY-i9-eJ9" firstAttribute="top" secondItem="B0i-rm-cvH" secondAttribute="bottom" constant="30" id="zhd-E5-1cy"/>
@@ -55,6 +68,7 @@
                     <connections>
                         <outlet property="containerView" destination="B0i-rm-cvH" id="1GG-zm-hTu"/>
                         <outlet property="image" destination="5TN-Eb-OZT" id="5mu-qa-Qit"/>
+                        <outlet property="logOutButton" destination="5su-IT-gNw" id="m4q-nD-Obe"/>
                         <outlet property="tableView" destination="NLY-i9-eJ9" id="bw2-cf-v52"/>
                     </connections>
                 </viewController>
@@ -85,6 +99,9 @@
         <image name="justoImage" width="512" height="512"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

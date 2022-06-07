@@ -12,13 +12,14 @@ class ResultsRouter: ResultsRouterProtocol {
   
   weak var presenter: ResultsPresenterProtocol?
   
-  static func createModule(results: Result) -> UIViewController {
+  static func createModule(results: Result, delegate: LogOutDelegate?) -> UIViewController {
     let s = mainstoryboard
     let view = s.instantiateViewController(withIdentifier: "Results") as! ResultsViewControllerProtocol
     let presenter: ResultsPresenterProtocol & ResultsInteractorOutputProtocol = ResultsPresenter()
     let interactor:ResultsInteractorProtocol = ResultsInteractor()
     var router: ResultsRouterProtocol = ResultsRouter()
     
+    view.delegate = delegate
     view.presenter = presenter
     view.result = results
     presenter.view = view
