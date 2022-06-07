@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2240EDA2D6412BED3A54E00A /* Pods_JustoApp_JustoAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBF00B0C2010C3D331A1DE4 /* Pods_JustoApp_JustoAppUITests.framework */; };
 		77D39D28284EE3E100795DC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D39D27284EE3E100795DC2 /* AppDelegate.swift */; };
 		77D39D2A284EE3E100795DC2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D39D29284EE3E100795DC2 /* SceneDelegate.swift */; };
 		77D39D2C284EE3E100795DC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D39D2B284EE3E100795DC2 /* ViewController.swift */; };
@@ -16,6 +17,33 @@
 		77D39D3F284EE3ED00795DC2 /* JustoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D39D3E284EE3ED00795DC2 /* JustoAppTests.swift */; };
 		77D39D49284EE3ED00795DC2 /* JustoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D39D48284EE3ED00795DC2 /* JustoAppUITests.swift */; };
 		77D39D4B284EE3ED00795DC2 /* JustoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D39D4A284EE3ED00795DC2 /* JustoAppUITestsLaunchTests.swift */; };
+		77D39D59284EE68300795DC2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D39D58284EE68300795DC2 /* Constants.swift */; };
+		77D39D5B284EE69900795DC2 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D39D5A284EE69900795DC2 /* Enums.swift */; };
+		77D39D5E284EE6C400795DC2 /* UIVIewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D39D5D284EE6C400795DC2 /* UIVIewControllerExtension.swift */; };
+		77D39D60284EE6DF00795DC2 /* NetworkConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D39D5F284EE6DF00795DC2 /* NetworkConnection.swift */; };
+		77D39D63284EE72700795DC2 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D39D62284EE72700795DC2 /* NetworkManager.swift */; };
+		77D39D65284EE73E00795DC2 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D39D64284EE73E00795DC2 /* Response.swift */; };
+		77D39D67284EE78300795DC2 /* WebRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D39D66284EE78300795DC2 /* WebRequests.swift */; };
+		77D39D87284EED6600795DC2 /* ResultsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D39D7C284EED6600795DC2 /* ResultsRouter.swift */; };
+		77D39D88284EED6600795DC2 /* ResultsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D39D7E284EED6600795DC2 /* ResultsInteractor.swift */; };
+		77D39D89284EED6600795DC2 /* ResultsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77D39D81284EED6600795DC2 /* ResultsStoryboard.storyboard */; };
+		77D39D8A284EED6600795DC2 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D39D82284EED6600795DC2 /* ResultsViewController.swift */; };
+		77D39D8B284EED6600795DC2 /* ResultsContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D39D84284EED6600795DC2 /* ResultsContracts.swift */; };
+		77D39D8C284EED6600795DC2 /* ResultsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D39D86284EED6600795DC2 /* ResultsPresenter.swift */; };
+		77D39D8E284EEE3200795DC2 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D39D8D284EEE3200795DC2 /* Results.swift */; };
+		77D39D93284EFE6F00795DC2 /* CustomLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D39D92284EFE6F00795DC2 /* CustomLoader.swift */; };
+		77D39D95284EFEBF00795DC2 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D39D94284EFEBF00795DC2 /* UIViewExtensions.swift */; };
+		77D39D98284F13FC00795DC2 /* InfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D39D97284F13FC00795DC2 /* InfoCell.swift */; };
+		77D39D9A284F148800795DC2 /* InfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77D39D99284F148800795DC2 /* InfoCell.xib */; };
+		77D39DAA284F17BF00795DC2 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D39DA0284F17BF00795DC2 /* LoginPresenter.swift */; };
+		77D39DAB284F17BF00795DC2 /* LoginContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D39DA2284F17BF00795DC2 /* LoginContracts.swift */; };
+		77D39DAC284F17BF00795DC2 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D39DA4284F17BF00795DC2 /* LoginInteractor.swift */; };
+		77D39DAD284F17BF00795DC2 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D39DA6284F17BF00795DC2 /* LoginRouter.swift */; };
+		77D39DAE284F17BF00795DC2 /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77D39DA8284F17BF00795DC2 /* LoginStoryboard.storyboard */; };
+		77D39DAF284F17BF00795DC2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D39DA9284F17BF00795DC2 /* LoginViewController.swift */; };
+		77D39DB1284F21A400795DC2 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D39DB0284F21A400795DC2 /* StringExtension.swift */; };
+		935E7FBF72A23A7842508AD7 /* Pods_JustoAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B024935FAF7FD64D8A4DE02 /* Pods_JustoAppTests.framework */; };
+		CB9F6392BF564A0963B0F10B /* Pods_JustoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E5DBFFBE96B83D20E7542C1 /* Pods_JustoApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +64,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		234488FE0DDC2DEBA2B1BB51 /* Pods-JustoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustoApp.debug.xcconfig"; path = "Target Support Files/Pods-JustoApp/Pods-JustoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		34461257B4B5D4307011A420 /* Pods-JustoApp-JustoAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustoApp-JustoAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-JustoApp-JustoAppUITests/Pods-JustoApp-JustoAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E5DBFFBE96B83D20E7542C1 /* Pods_JustoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JustoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B024935FAF7FD64D8A4DE02 /* Pods_JustoAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JustoAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F3F0481641CF79DE612405D /* Pods-JustoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustoApp.release.xcconfig"; path = "Target Support Files/Pods-JustoApp/Pods-JustoApp.release.xcconfig"; sourceTree = "<group>"; };
 		77D39D24284EE3E100795DC2 /* JustoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77D39D27284EE3E100795DC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77D39D29284EE3E100795DC2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +82,35 @@
 		77D39D44284EE3ED00795DC2 /* JustoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JustoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77D39D48284EE3ED00795DC2 /* JustoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustoAppUITests.swift; sourceTree = "<group>"; };
 		77D39D4A284EE3ED00795DC2 /* JustoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		77D39D58284EE68300795DC2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		77D39D5A284EE69900795DC2 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		77D39D5D284EE6C400795DC2 /* UIVIewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVIewControllerExtension.swift; sourceTree = "<group>"; };
+		77D39D5F284EE6DF00795DC2 /* NetworkConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConnection.swift; sourceTree = "<group>"; };
+		77D39D62284EE72700795DC2 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		77D39D64284EE73E00795DC2 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		77D39D66284EE78300795DC2 /* WebRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRequests.swift; sourceTree = "<group>"; };
+		77D39D7C284EED6600795DC2 /* ResultsRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsRouter.swift; sourceTree = "<group>"; };
+		77D39D7E284EED6600795DC2 /* ResultsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsInteractor.swift; sourceTree = "<group>"; };
+		77D39D81284EED6600795DC2 /* ResultsStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ResultsStoryboard.storyboard; sourceTree = "<group>"; };
+		77D39D82284EED6600795DC2 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		77D39D84284EED6600795DC2 /* ResultsContracts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsContracts.swift; sourceTree = "<group>"; };
+		77D39D86284EED6600795DC2 /* ResultsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsPresenter.swift; sourceTree = "<group>"; };
+		77D39D8D284EEE3200795DC2 /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		77D39D92284EFE6F00795DC2 /* CustomLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLoader.swift; sourceTree = "<group>"; };
+		77D39D94284EFEBF00795DC2 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		77D39D97284F13FC00795DC2 /* InfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCell.swift; sourceTree = "<group>"; };
+		77D39D99284F148800795DC2 /* InfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoCell.xib; sourceTree = "<group>"; };
+		77D39DA0284F17BF00795DC2 /* LoginPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		77D39DA2284F17BF00795DC2 /* LoginContracts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginContracts.swift; sourceTree = "<group>"; };
+		77D39DA4284F17BF00795DC2 /* LoginInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		77D39DA6284F17BF00795DC2 /* LoginRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		77D39DA8284F17BF00795DC2 /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginStoryboard.storyboard; sourceTree = "<group>"; };
+		77D39DA9284F17BF00795DC2 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		77D39DB0284F21A400795DC2 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		7CBF00B0C2010C3D331A1DE4 /* Pods_JustoApp_JustoAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JustoApp_JustoAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97E8BFA02A4715DCE3F9D27B /* Pods-JustoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustoAppTests.release.xcconfig"; path = "Target Support Files/Pods-JustoAppTests/Pods-JustoAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		9AA985D028E614F1579983B4 /* Pods-JustoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustoAppTests.debug.xcconfig"; path = "Target Support Files/Pods-JustoAppTests/Pods-JustoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CEA7A5AA8DCA0267F71E0E33 /* Pods-JustoApp-JustoAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustoApp-JustoAppUITests.release.xcconfig"; path = "Target Support Files/Pods-JustoApp-JustoAppUITests/Pods-JustoApp-JustoAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB9F6392BF564A0963B0F10B /* Pods_JustoApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				935E7FBF72A23A7842508AD7 /* Pods_JustoAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2240EDA2D6412BED3A54E00A /* Pods_JustoApp_JustoAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +148,8 @@
 				77D39D3D284EE3ED00795DC2 /* JustoAppTests */,
 				77D39D47284EE3ED00795DC2 /* JustoAppUITests */,
 				77D39D25284EE3E100795DC2 /* Products */,
+				8EF3C76B57ACD2930282EC80 /* Pods */,
+				FD8382EB89B4E565BD9F60DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +166,9 @@
 		77D39D26284EE3E100795DC2 /* JustoApp */ = {
 			isa = PBXGroup;
 			children = (
+				77D39D68284EEB7A00795DC2 /* Modules */,
+				77D39D61284EE70000795DC2 /* NetworkManager */,
+				77D39D57284EE66C00795DC2 /* Common */,
 				77D39D27284EE3E100795DC2 /* AppDelegate.swift */,
 				77D39D29284EE3E100795DC2 /* SceneDelegate.swift */,
 				77D39D2B284EE3E100795DC2 /* ViewController.swift */,
@@ -127,6 +197,211 @@
 			path = JustoAppUITests;
 			sourceTree = "<group>";
 		};
+		77D39D57284EE66C00795DC2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				77D39D91284EFE4F00795DC2 /* ViewsCustom */,
+				77D39D5C284EE6B700795DC2 /* Extensions */,
+				77D39D58284EE68300795DC2 /* Constants.swift */,
+				77D39D5A284EE69900795DC2 /* Enums.swift */,
+				77D39D5F284EE6DF00795DC2 /* NetworkConnection.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		77D39D5C284EE6B700795DC2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				77D39D5D284EE6C400795DC2 /* UIVIewControllerExtension.swift */,
+				77D39D94284EFEBF00795DC2 /* UIViewExtensions.swift */,
+				77D39DB0284F21A400795DC2 /* StringExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		77D39D61284EE70000795DC2 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				77D39D62284EE72700795DC2 /* NetworkManager.swift */,
+				77D39D64284EE73E00795DC2 /* Response.swift */,
+				77D39D66284EE78300795DC2 /* WebRequests.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		77D39D68284EEB7A00795DC2 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				77D39D9D284F17BF00795DC2 /* LoginModule */,
+				77D39D7A284EED6600795DC2 /* ResultsModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		77D39D7A284EED6600795DC2 /* ResultsModule */ = {
+			isa = PBXGroup;
+			children = (
+				77D39D7B284EED6600795DC2 /* ResultsRouter */,
+				77D39D7D284EED6600795DC2 /* ResultsInteractor */,
+				77D39D7F284EED6600795DC2 /* Model */,
+				77D39D80284EED6600795DC2 /* ResultsView */,
+				77D39D83284EED6600795DC2 /* ResultsContracts */,
+				77D39D85284EED6600795DC2 /* ResultsPresenter */,
+			);
+			path = ResultsModule;
+			sourceTree = "<group>";
+		};
+		77D39D7B284EED6600795DC2 /* ResultsRouter */ = {
+			isa = PBXGroup;
+			children = (
+				77D39D7C284EED6600795DC2 /* ResultsRouter.swift */,
+			);
+			path = ResultsRouter;
+			sourceTree = "<group>";
+		};
+		77D39D7D284EED6600795DC2 /* ResultsInteractor */ = {
+			isa = PBXGroup;
+			children = (
+				77D39D7E284EED6600795DC2 /* ResultsInteractor.swift */,
+			);
+			path = ResultsInteractor;
+			sourceTree = "<group>";
+		};
+		77D39D7F284EED6600795DC2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				77D39D8D284EEE3200795DC2 /* Results.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		77D39D80284EED6600795DC2 /* ResultsView */ = {
+			isa = PBXGroup;
+			children = (
+				77D39D96284F13EC00795DC2 /* Cell */,
+				77D39D81284EED6600795DC2 /* ResultsStoryboard.storyboard */,
+				77D39D82284EED6600795DC2 /* ResultsViewController.swift */,
+			);
+			path = ResultsView;
+			sourceTree = "<group>";
+		};
+		77D39D83284EED6600795DC2 /* ResultsContracts */ = {
+			isa = PBXGroup;
+			children = (
+				77D39D84284EED6600795DC2 /* ResultsContracts.swift */,
+			);
+			path = ResultsContracts;
+			sourceTree = "<group>";
+		};
+		77D39D85284EED6600795DC2 /* ResultsPresenter */ = {
+			isa = PBXGroup;
+			children = (
+				77D39D86284EED6600795DC2 /* ResultsPresenter.swift */,
+			);
+			path = ResultsPresenter;
+			sourceTree = "<group>";
+		};
+		77D39D91284EFE4F00795DC2 /* ViewsCustom */ = {
+			isa = PBXGroup;
+			children = (
+				77D39D92284EFE6F00795DC2 /* CustomLoader.swift */,
+			);
+			path = ViewsCustom;
+			sourceTree = "<group>";
+		};
+		77D39D96284F13EC00795DC2 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				77D39D97284F13FC00795DC2 /* InfoCell.swift */,
+				77D39D99284F148800795DC2 /* InfoCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		77D39D9D284F17BF00795DC2 /* LoginModule */ = {
+			isa = PBXGroup;
+			children = (
+				77D39D9E284F17BF00795DC2 /* LoginEntity */,
+				77D39D9F284F17BF00795DC2 /* LoginPresenter */,
+				77D39DA1284F17BF00795DC2 /* LoginContracts */,
+				77D39DA3284F17BF00795DC2 /* LoginInteractor */,
+				77D39DA5284F17BF00795DC2 /* LoginRouter */,
+				77D39DA7284F17BF00795DC2 /* LoginView */,
+			);
+			path = LoginModule;
+			sourceTree = "<group>";
+		};
+		77D39D9E284F17BF00795DC2 /* LoginEntity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LoginEntity;
+			sourceTree = "<group>";
+		};
+		77D39D9F284F17BF00795DC2 /* LoginPresenter */ = {
+			isa = PBXGroup;
+			children = (
+				77D39DA0284F17BF00795DC2 /* LoginPresenter.swift */,
+			);
+			path = LoginPresenter;
+			sourceTree = "<group>";
+		};
+		77D39DA1284F17BF00795DC2 /* LoginContracts */ = {
+			isa = PBXGroup;
+			children = (
+				77D39DA2284F17BF00795DC2 /* LoginContracts.swift */,
+			);
+			path = LoginContracts;
+			sourceTree = "<group>";
+		};
+		77D39DA3284F17BF00795DC2 /* LoginInteractor */ = {
+			isa = PBXGroup;
+			children = (
+				77D39DA4284F17BF00795DC2 /* LoginInteractor.swift */,
+			);
+			path = LoginInteractor;
+			sourceTree = "<group>";
+		};
+		77D39DA5284F17BF00795DC2 /* LoginRouter */ = {
+			isa = PBXGroup;
+			children = (
+				77D39DA6284F17BF00795DC2 /* LoginRouter.swift */,
+			);
+			path = LoginRouter;
+			sourceTree = "<group>";
+		};
+		77D39DA7284F17BF00795DC2 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				77D39DA8284F17BF00795DC2 /* LoginStoryboard.storyboard */,
+				77D39DA9284F17BF00795DC2 /* LoginViewController.swift */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		8EF3C76B57ACD2930282EC80 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				234488FE0DDC2DEBA2B1BB51 /* Pods-JustoApp.debug.xcconfig */,
+				5F3F0481641CF79DE612405D /* Pods-JustoApp.release.xcconfig */,
+				34461257B4B5D4307011A420 /* Pods-JustoApp-JustoAppUITests.debug.xcconfig */,
+				CEA7A5AA8DCA0267F71E0E33 /* Pods-JustoApp-JustoAppUITests.release.xcconfig */,
+				9AA985D028E614F1579983B4 /* Pods-JustoAppTests.debug.xcconfig */,
+				97E8BFA02A4715DCE3F9D27B /* Pods-JustoAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FD8382EB89B4E565BD9F60DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E5DBFFBE96B83D20E7542C1 /* Pods_JustoApp.framework */,
+				7CBF00B0C2010C3D331A1DE4 /* Pods_JustoApp_JustoAppUITests.framework */,
+				4B024935FAF7FD64D8A4DE02 /* Pods_JustoAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +409,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77D39D4E284EE3ED00795DC2 /* Build configuration list for PBXNativeTarget "JustoApp" */;
 			buildPhases = (
+				51C13C39852CEE0434437D70 /* [CP] Check Pods Manifest.lock */,
 				77D39D20284EE3E100795DC2 /* Sources */,
 				77D39D21284EE3E100795DC2 /* Frameworks */,
 				77D39D22284EE3E100795DC2 /* Resources */,
+				4C72473E734FDA7D5A583123 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +428,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77D39D51284EE3ED00795DC2 /* Build configuration list for PBXNativeTarget "JustoAppTests" */;
 			buildPhases = (
+				1A9DB80AC9FA6440DC5BCE22 /* [CP] Check Pods Manifest.lock */,
 				77D39D36284EE3ED00795DC2 /* Sources */,
 				77D39D37284EE3ED00795DC2 /* Frameworks */,
 				77D39D38284EE3ED00795DC2 /* Resources */,
@@ -169,9 +447,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77D39D54284EE3ED00795DC2 /* Build configuration list for PBXNativeTarget "JustoAppUITests" */;
 			buildPhases = (
+				55E71575C80B7C7A9B7FFB76 /* [CP] Check Pods Manifest.lock */,
 				77D39D40284EE3ED00795DC2 /* Sources */,
 				77D39D41284EE3ED00795DC2 /* Frameworks */,
 				77D39D42284EE3ED00795DC2 /* Resources */,
+				1E1BFC041636460CB11BE1A5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,7 +512,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				77D39D34284EE3ED00795DC2 /* LaunchScreen.storyboard in Resources */,
+				77D39D9A284F148800795DC2 /* InfoCell.xib in Resources */,
 				77D39D31284EE3ED00795DC2 /* Assets.xcassets in Resources */,
+				77D39DAE284F17BF00795DC2 /* LoginStoryboard.storyboard in Resources */,
+				77D39D89284EED6600795DC2 /* ResultsStoryboard.storyboard in Resources */,
 				77D39D2F284EE3E100795DC2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,14 +536,139 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A9DB80AC9FA6440DC5BCE22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JustoAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E1BFC041636460CB11BE1A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JustoApp-JustoAppUITests/Pods-JustoApp-JustoAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JustoApp-JustoAppUITests/Pods-JustoApp-JustoAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JustoApp-JustoAppUITests/Pods-JustoApp-JustoAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C72473E734FDA7D5A583123 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JustoApp/Pods-JustoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JustoApp/Pods-JustoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JustoApp/Pods-JustoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51C13C39852CEE0434437D70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JustoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55E71575C80B7C7A9B7FFB76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JustoApp-JustoAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		77D39D20284EE3E100795DC2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77D39D93284EFE6F00795DC2 /* CustomLoader.swift in Sources */,
 				77D39D2C284EE3E100795DC2 /* ViewController.swift in Sources */,
 				77D39D28284EE3E100795DC2 /* AppDelegate.swift in Sources */,
+				77D39D8B284EED6600795DC2 /* ResultsContracts.swift in Sources */,
+				77D39DAA284F17BF00795DC2 /* LoginPresenter.swift in Sources */,
+				77D39D87284EED6600795DC2 /* ResultsRouter.swift in Sources */,
+				77D39D5B284EE69900795DC2 /* Enums.swift in Sources */,
+				77D39DB1284F21A400795DC2 /* StringExtension.swift in Sources */,
 				77D39D2A284EE3E100795DC2 /* SceneDelegate.swift in Sources */,
+				77D39D8C284EED6600795DC2 /* ResultsPresenter.swift in Sources */,
+				77D39DAD284F17BF00795DC2 /* LoginRouter.swift in Sources */,
+				77D39D65284EE73E00795DC2 /* Response.swift in Sources */,
+				77D39D98284F13FC00795DC2 /* InfoCell.swift in Sources */,
+				77D39DAF284F17BF00795DC2 /* LoginViewController.swift in Sources */,
+				77D39DAB284F17BF00795DC2 /* LoginContracts.swift in Sources */,
+				77D39DAC284F17BF00795DC2 /* LoginInteractor.swift in Sources */,
+				77D39D63284EE72700795DC2 /* NetworkManager.swift in Sources */,
+				77D39D88284EED6600795DC2 /* ResultsInteractor.swift in Sources */,
+				77D39D8E284EEE3200795DC2 /* Results.swift in Sources */,
+				77D39D60284EE6DF00795DC2 /* NetworkConnection.swift in Sources */,
+				77D39D5E284EE6C400795DC2 /* UIVIewControllerExtension.swift in Sources */,
+				77D39D8A284EED6600795DC2 /* ResultsViewController.swift in Sources */,
+				77D39D67284EE78300795DC2 /* WebRequests.swift in Sources */,
+				77D39D95284EFEBF00795DC2 /* UIViewExtensions.swift in Sources */,
+				77D39D59284EE68300795DC2 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +840,7 @@
 		};
 		77D39D4F284EE3ED00795DC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 234488FE0DDC2DEBA2B1BB51 /* Pods-JustoApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +869,7 @@
 		};
 		77D39D50284EE3ED00795DC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F3F0481641CF79DE612405D /* Pods-JustoApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +898,7 @@
 		};
 		77D39D52284EE3ED00795DC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AA985D028E614F1579983B4 /* Pods-JustoAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +919,7 @@
 		};
 		77D39D53284EE3ED00795DC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97E8BFA02A4715DCE3F9D27B /* Pods-JustoAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +940,7 @@
 		};
 		77D39D55284EE3ED00795DC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34461257B4B5D4307011A420 /* Pods-JustoApp-JustoAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +959,7 @@
 		};
 		77D39D56284EE3ED00795DC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEA7A5AA8DCA0267F71E0E33 /* Pods-JustoApp-JustoAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
