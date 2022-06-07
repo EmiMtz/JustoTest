@@ -116,7 +116,7 @@ class Result: Codable {
     var infoArray: [InfoEntity] = []
     infoArray.append(InfoEntity(infoName: "Gender", infoService: gender))
     infoArray.append(InfoEntity(infoName: "Name",
-                                infoService: name.title + name.first + name.last))
+                                infoService: name.title + " " + name.first + " " + name.last))
     infoArray.append(InfoEntity(infoName: "Location",
                                 infoService:  "\(location.country), \(location.state), \(location.city)"))
     infoArray.append(InfoEntity(infoName: "E-mail" , infoService: email))
